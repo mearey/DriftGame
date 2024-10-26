@@ -1,0 +1,708 @@
+[+] Containers:
+ |- [+] Container: /Game/shooter_level/ShooterLevel
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:03A918D141922F712DB1D7B2681BEC62 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:054EEAF14595C20C3D8433B0C03F7E40 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089D41D02_1488499440 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2710.000 Y=-1300.000 Z=0.000), Max=(X=-2610.000 Y=-1200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:0570DFB64FB9AB382C50D394096C33BD BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_30D042E63089681F02_1284941541 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-6000.000 Y=-6000.000 Z=-490.000), Max=(X=6000.000 Y=6000.000 Z=510.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:05D345AC4FB53BCA282CC5B97FCD26FB BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_244BFEE9F5200E1D02_1688443585 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-56.569 Y=-56.569 Z=-92.000), Max=(X=56.569 Y=56.569 Z=92.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:066E5C66490F43866EE0ADA4B17B6FC4 BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_30D042E63089D41D02_2002872445 Label:CineCameraActor SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-2640.000 Y=-2850.000 Z=1040.000), Max=(X=-2640.000 Y=-2850.000 Z=1040.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:0D5B23764D30C74FC59FE2A122510880 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089D11D02_2138673903 Label:Floor_400x400 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4000.000 Y=-4000.000 Z=-100.501), Max=(X=4000.000 Y=4000.000 Z=-0.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:0F0A574D48FDFBF8A36BB5930C5FE62D BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_30D042E63089651F02_1889843008 Label:CineCameraActor2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=330.000 Y=50.000 Z=20.000), Max=(X=330.000 Y=50.000 Z=20.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:19557045440D7752606B37809A9A33B3 BaseClass: NativeClass:/Script/LevelSequence.LevelSequenceActor Name:LevelSequenceActor_UAID_30D042E63089D51D02_1124014622 Label:LevelSequence SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=20.000 Y=110.000 Z=0.000), Max=(X=20.000 Y=110.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:1CB463AE41853B1B1980B8842233FF9B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2052910588 Label:Tree_02_Tree_02_LOD9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2472.159 Y=3254.677 Z=-2.192), Max=(X=-2305.127 Y=3424.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:1D22A3E144DF45314B8F2A9B58544E4A BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_30D042E63089651F02_1934513009 Label:CineCameraActor3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-350.000 Y=510.000 Z=-100.000), Max=(X=-350.000 Y=510.000 Z=-100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:209C61654DDE6EA6037415B436054D34 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1819075564 Label:Tree_01_Tree_01_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2165.007 Y=-375.243 Z=-0.499), Max=(X=2438.112 Y=-131.137 Z=555.681) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:25CFBA144B1BE9A5450BAC8FC5D11FED BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2130942795 Label:BP_ExplosiveBarrel5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=470.790 Y=3093.853 Z=5.770), Max=(X=587.210 Y=3210.147 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:275EF9CF4E89A94C9F7A748B0CD07E10 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1833803567 Label:Tree_03_Tree_03_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=147.870 Y=941.187 Z=-0.975), Max=(X=525.956 Y=1254.632 Z=494.095) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2C2036F046B85E6294C0C595CD30FF1A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2044971586 Label:Tree_03_Tree_03_LOD8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2545.130 Y=-508.241 Z=-0.420), Max=(X=-2166.338 Y=-190.138 Z=498.017) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2FD337C144677805B2A24C850485CBBE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2079303595 Label:Tree_02_Tree_02_LOD15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3014.841 Y=2830.677 Z=-2.192), Max=(X=3181.873 Y=3000.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:2FD8064447081718DEC792ACDD7FC5E7 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1138551775 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=742.442 Y=-3242.558 Z=-110.000), Max=(X=1251.558 Y=-2733.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:345F21714B67725FC3E921BE91AAB439 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1480603154 Label:BP_GunPowerUp5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3242.442 Y=2765.442 Z=-110.000), Max=(X=3751.558 Y=3274.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:3487B3A341282D6376CBE3ADF9146577 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1830404566 Label:Tree_02_Tree_02_LOD1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=618.998 Y=504.830 Z=-2.015), Max=(X=721.026 Y=605.529 Z=251.069) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:355824A84F5332363FA0F7B139EEF3EF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2092910596 Label:Tree_03_Tree_03_LOD9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-312.130 Y=3233.187 Z=-0.475), Max=(X=65.956 Y=3546.632 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:3927E8674AB172E5B8ECF49044177DEA BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2069219592 Label:Tree_02_Tree_02_LOD13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3054.841 Y=3043.677 Z=-2.191), Max=(X=3221.873 Y=3213.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:396A146B4DF11ED74F495BBCC5196CD9 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:3ABB58B949B751E51B2048B0AD94FBE0 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:3ABF8778492478E28D37579CB5A83E87 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:3F61291241D70033DD35DE88C000F56A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1993450585 Label:Tree_02_Tree_02_LOD8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=846.998 Y=773.830 Z=-1.515), Max=(X=949.026 Y=874.529 Z=251.569) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:4294B08D4560A652A87C63A231FAF0AE BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1494597158 Label:BP_GunPowerUp9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1555.442 Y=-250.558 Z=-110.000), Max=(X=2064.558 Y=258.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:4938F56D4EA73437C3B3BDBD39A7CBAB BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2096389597 Label:Tree_03_Tree_03_LOD10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-711.130 Y=3374.187 Z=-0.475), Max=(X=-333.044 Y=3687.632 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5307D86E464EB96CF012849359C31EA8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1960506581 Label:Tree_02_Tree_02_LOD6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1843.841 Y=3198.677 Z=-2.192), Max=(X=2010.873 Y=3368.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:58FB4481435B17D51CBC5DB028175A3B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1947922578 Label:Tree_02_Tree_02_LOD3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=820.841 Y=425.677 Z=-2.192), Max=(X=987.873 Y=595.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5D2FF1B049706A0C32D467B40FA3BAB5 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1485661156 Label:BP_GunPowerUp7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-787.558 Y=1377.442 Z=-110.000), Max=(X=-278.442 Y=1886.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:5EB0788C4F661E51B6A4B080CEA2DD47 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2048518587 Label:Tree_01_Tree_01_LOD3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3597.993 Y=2488.757 Z=-0.500), Max=(X=-3324.888 Y=2732.863 Z=555.680) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:615A9BA74E559D3A005DFA9BF8EF7FA9 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1153201779 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3971.558 Y=-2800.558 Z=-110.000), Max=(X=-3462.442 Y=-2291.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:66266C4440B79A872B2369B9D7160B33 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1492399157 Label:BP_GunPowerUp8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3135.558 Y=-173.558 Z=-110.000), Max=(X=-2626.442 Y=335.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:6E5717034A1F619856C68B8D96231484 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1957232580 Label:Tree_02_Tree_02_LOD5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2026.841 Y=3130.677 Z=-2.192), Max=(X=2193.873 Y=3300.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:709D7EC14ED317C0EE1F7EAFE7668D29 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1939696576 Label:Tree_01_Tree_01_LOD2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1883.993 Y=1294.757 Z=-0.499), Max=(X=-1610.888 Y=1538.863 Z=555.681) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7562B7B946A9E261D8FFCB9B330CD09A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1930515575 Label:Tree_03_Tree_03_LOD5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=64.870 Y=-3583.813 Z=-0.475), Max=(X=442.956 Y=-3270.368 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7B5F32B34C729E2D2342279D1B556DD5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1899548571 Label:Tree_02_Tree_02_LOD2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=911.841 Y=615.677 Z=-2.192), Max=(X=1078.873 Y=785.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7EBAA7114D61078F9F6F4DAF7121D8C2 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2119224792 Label:BP_ExplosiveBarrel2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1718.790 Y=-1699.147 Z=5.770), Max=(X=1835.210 Y=-1582.853 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7EED416E4668BF08A5827C8E67781F16 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1476419152 Label:BP_GunPowerUp3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3080.442 Y=-3547.558 Z=-110.000), Max=(X=3589.558 Y=-3038.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:7FBFB71648B9B74FA9F7A2AA115AABC3 BaseClass:/Game/shooter_level/Gun/BP_PlayerGun.BP_PlayerGun_C NativeClass:/Script/Engine.Actor Name:BP_PlayerGun_C_UAID_30D042E630897B2902_1253565439 Label:BP_PlayerGun SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-584.084 Y=-601.589 Z=-81.449), Max=(X=-257.916 Y=-268.411 Z=199.449) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:81BC23ED42BA38E5DE0F9B885DA771E9 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1827299565 Label:Tree_02_Tree_02_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=727.841 Y=615.677 Z=-2.192), Max=(X=894.873 Y=785.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:840C166647D84B96ABEF9E9B93342191 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1406928150 Label:BP_GunPowerUp SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2046.558 Y=-2742.558 Z=-110.000), Max=(X=-1537.442 Y=-2233.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8521364841D302ACEA63EE96707414C4 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1143880777 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1181.558 Y=-971.558 Z=-110.000), Max=(X=-672.442 Y=-462.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:879AC79B4C7F0B5F107858B3B691D8BE BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1474401151 Label:BP_GunPowerUp2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-407.558 Y=-1724.558 Z=-110.000), Max=(X=101.558 Y=-1215.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8C331FBD49AD6A186FDCD6BC420E3236 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1843160568 Label:Tree_03_Tree_03_LOD1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-795.130 Y=227.187 Z=-0.975), Max=(X=-417.044 Y=540.632 Z=494.095) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:8D610FE142472C994C8C57A151DFCC31 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1924357573 Label:Tree_03_Tree_03_LOD3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1884.870 Y=-2340.813 Z=-0.475), Max=(X=2262.956 Y=-2027.368 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:90D6466D4AD065E803E1E49A87DD792D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1969495583 Label:Tree_03_Tree_03_LOD6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1029.391 Y=663.831 Z=-0.483), Max=(X=-764.731 Y=883.242 Z=346.067) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:95D69E454798D870EDB6C8ACC30392A6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1911807572 Label:Tree_01_Tree_01_LOD1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2132.798 Y=-92.060 Z=-0.499), Max=(X=2480.753 Y=266.509 Z=555.681) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9640EABB491275B002E3FDB1F461890C BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2076400594 Label:Tree_02_Tree_02_LOD14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3318.841 Y=2730.677 Z=-2.192), Max=(X=3485.873 Y=2900.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:980CD51E474EB098D9C7D8BD58F3A942 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2055720589 Label:Tree_02_Tree_02_LOD10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2654.159 Y=3207.677 Z=-2.191), Max=(X=-2487.127 Y=3377.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:99BA54C040EBD022E15D869840F8390D BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:9A5BF8C64B2B39D403BCCBB5423CA0D9 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2127304794 Label:BP_ExplosiveBarrel4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3020.210 Y=2735.853 Z=5.769), Max=(X=-2903.790 Y=2852.147 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9FF7785F4B6C98A5578CC18543CB0485 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1147742778 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1744.558 Y=3341.442 Z=-110.000), Max=(X=-1235.442 Y=3850.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A36F0C9044E61060DADD2C90016ECE22 BaseClass:/Game/shooter_level/AI/AI_CarModel/AI_CarBP.AI_CarBP_C NativeClass:/Script/ChaosVehicles.WheeledVehiclePawn Name:CarBP1_C_UAID_30D042E63089A01F02_1955872396 Label:AI_CarBP1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3137.239 Y=-3592.236 Z=38.213), Max=(X=-2530.607 Y=-2946.754 Z=382.319) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:A8A8BB34477196B23105C3B9BEA22B53 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2061651591 Label:Tree_02_Tree_02_LOD12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1346.841 Y=-3778.323 Z=-2.191), Max=(X=1513.873 Y=-3608.507 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:B00FBBB34B9AD97329BF3AB8C7C9E711 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2058226590 Label:Tree_02_Tree_02_LOD11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2926.159 Y=3207.677 Z=-170.191), Max=(X=-2759.127 Y=3377.493 Z=251.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:B0DF04054823C5CA975B50970F4B4D25 BaseClass: NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_30D042E63089681F02-Default Label:RecastNavMesh-Default SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:B2FD513041B3B85FE3DDF0A264D8186E BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- Guid:B7A478434ED7A14EA0DCF8B89F805A44 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1926851574 Label:Tree_03_Tree_03_LOD4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2659.870 Y=-2150.813 Z=-0.475), Max=(X=3037.956 Y=-1837.368 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:BC3F2F884CBBD4DEB4E02F95D617F177 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:BD32B7AB4D7736D12E5E8A9999C89214 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1978378584 Label:Tree_03_Tree_03_LOD7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-746.391 Y=586.831 Z=-0.483), Max=(X=-481.731 Y=806.242 Z=346.067) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C360AB33492045A9EB7E1ABE5552B714 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2038259791 Label:BP_ExplosiveBarrel SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=103.790 Y=-836.147 Z=5.770), Max=(X=220.210 Y=-719.853 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C395BDF04379324F70D2EC8177A8694B BaseClass:/Game/shooter_level/FallOffTrigger.FallOffTrigger_C NativeClass:/Script/Engine.Actor Name:FallOffTrigger_C_UAID_30D042E63089671F02_1276890363 Label:FallOffTrigger SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-17600.000 Y=-17600.000 Z=-232.000), Max=(X=17600.000 Y=17600.000 Z=-168.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:CB9851894FEB54978C8DAAAD890D531C BaseClass: NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:D8EBF3624312266E1CA6DB9824D5C633 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2122976793 Label:BP_ExplosiveBarrel3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1770.210 Y=254.853 Z=5.770), Max=(X=-1653.790 Y=371.147 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DAD1B53A41F3511C5AEF8FAB17673966 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089762902_1750327562 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_04 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=468.442 Y=-86.558 Z=-110.000), Max=(X=977.558 Y=422.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DC697C7B4268A3869E7E9EB700E98979 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1483232155 Label:BP_GunPowerUp6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1441.442 Y=1849.442 Z=-110.000), Max=(X=1950.558 Y=2358.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:DD3E96B948586779FD9A89B031D8283E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1962563582 Label:Tree_02_Tree_02_LOD7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1836.841 Y=2997.677 Z=-2.192), Max=(X=2003.873 Y=3167.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E2F5AFF04F6D68765E76D0B58D81F676 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1141420776 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2059.442 Y=1491.442 Z=-110.000), Max=(X=2568.558 Y=2000.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E8B4EF3041A874B983974F99F59E6358 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1131699774 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3285.558 Y=1159.442 Z=-110.000), Max=(X=-2776.442 Y=1668.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E9C0ACF5428CFC84EB5108AC958B57E1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1847968569 Label:Tree_03_Tree_03_LOD2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2064.130 Y=-385.241 Z=-0.920), Max=(X=-1685.338 Y=-67.138 Z=497.517) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:EFFAFDEA40DD973EA89E999535C0CAFE BaseClass:/Game/shooter_level/AISplineFollowing/BP_AIPath.BP_AIPath_C NativeClass:/Script/Engine.Actor Name:BP_AIPath_C_UAID_30D042E63089072602_1571436856 Label:BP_AIPath SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2283.065 Y=-869.799 Z=-1.355), Max=(X=3116.286 Y=2705.589 Z=3.782) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F25EA0D949B36DBD8BB503B1DF20053F BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1788579563 Label:Flowers_02_Flowers_02_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=497.410 Y=508.778 Z=-2.356), Max=(X=544.871 Y=544.966 Z=51.976) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F9514B564B5FA2601FE863B8BF4D62B2 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1478827153 Label:BP_GunPowerUp4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3227.442 Y=-639.558 Z=-110.000), Max=(X=3736.558 Y=-130.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:FA4C0D55499741FB21A9F98040049BAD BaseClass:/Game/shooter_level/Boss.Boss_C NativeClass:/Script/Engine.Character Name:Boss_C_UAID_30D042E63089681F02_1243387540 Label:Boss SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3751.309 Y=-3768.235 Z=8.000), Max=(X=-3042.411 Y=-3075.340 Z=168.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:FAAA6BF1408B9F514A96C5B044B3C09D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1950817579 Label:Tree_02_Tree_02_LOD4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=594.841 Y=1788.677 Z=-2.192), Max=(X=761.873 Y=1958.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:03A918D141922F712DB1D7B2681BEC62 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:054EEAF14595C20C3D8433B0C03F7E40 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089D41D02_1488499440 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2710.000 Y=-1300.000 Z=0.000), Max=(X=-2610.000 Y=-1200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:0570DFB64FB9AB382C50D394096C33BD BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_30D042E63089681F02_1284941541 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-6000.000 Y=-6000.000 Z=-490.000), Max=(X=6000.000 Y=6000.000 Z=510.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:05D345AC4FB53BCA282CC5B97FCD26FB BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_244BFEE9F5200E1D02_1688443585 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-56.569 Y=-56.569 Z=-92.000), Max=(X=56.569 Y=56.569 Z=92.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:066E5C66490F43866EE0ADA4B17B6FC4 BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_30D042E63089D41D02_2002872445 Label:CineCameraActor SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-2640.000 Y=-2850.000 Z=1040.000), Max=(X=-2640.000 Y=-2850.000 Z=1040.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:0D5B23764D30C74FC59FE2A122510880 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089D11D02_2138673903 Label:Floor_400x400 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-4000.000 Y=-4000.000 Z=-100.501), Max=(X=4000.000 Y=4000.000 Z=-0.500) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:0F0A574D48FDFBF8A36BB5930C5FE62D BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_30D042E63089651F02_1889843008 Label:CineCameraActor2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=330.000 Y=50.000 Z=20.000), Max=(X=330.000 Y=50.000 Z=20.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:19557045440D7752606B37809A9A33B3 BaseClass: NativeClass:/Script/LevelSequence.LevelSequenceActor Name:LevelSequenceActor_UAID_30D042E63089D51D02_1124014622 Label:LevelSequence SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=20.000 Y=110.000 Z=0.000), Max=(X=20.000 Y=110.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:1CB463AE41853B1B1980B8842233FF9B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2052910588 Label:Tree_02_Tree_02_LOD9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2472.159 Y=3254.677 Z=-2.192), Max=(X=-2305.127 Y=3424.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:1D22A3E144DF45314B8F2A9B58544E4A BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_30D042E63089651F02_1934513009 Label:CineCameraActor3 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-350.000 Y=510.000 Z=-100.000), Max=(X=-350.000 Y=510.000 Z=-100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:209C61654DDE6EA6037415B436054D34 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1819075564 Label:Tree_01_Tree_01_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2165.007 Y=-375.243 Z=-0.499), Max=(X=2438.112 Y=-131.137 Z=555.681) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:25CFBA144B1BE9A5450BAC8FC5D11FED BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2130942795 Label:BP_ExplosiveBarrel5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=470.790 Y=3093.853 Z=5.770), Max=(X=587.210 Y=3210.147 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:275EF9CF4E89A94C9F7A748B0CD07E10 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1833803567 Label:Tree_03_Tree_03_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=147.870 Y=941.187 Z=-0.975), Max=(X=525.956 Y=1254.632 Z=494.095) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:2C2036F046B85E6294C0C595CD30FF1A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2044971586 Label:Tree_03_Tree_03_LOD8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2545.130 Y=-508.241 Z=-0.420), Max=(X=-2166.338 Y=-190.138 Z=498.017) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:2FD337C144677805B2A24C850485CBBE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2079303595 Label:Tree_02_Tree_02_LOD15 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3014.841 Y=2830.677 Z=-2.192), Max=(X=3181.873 Y=3000.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:2FD8064447081718DEC792ACDD7FC5E7 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1138551775 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=742.442 Y=-3242.558 Z=-110.000), Max=(X=1251.558 Y=-2733.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:345F21714B67725FC3E921BE91AAB439 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1480603154 Label:BP_GunPowerUp5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3242.442 Y=2765.442 Z=-110.000), Max=(X=3751.558 Y=3274.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:3487B3A341282D6376CBE3ADF9146577 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1830404566 Label:Tree_02_Tree_02_LOD1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=618.998 Y=504.830 Z=-2.015), Max=(X=721.026 Y=605.529 Z=251.069) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:355824A84F5332363FA0F7B139EEF3EF BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2092910596 Label:Tree_03_Tree_03_LOD9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-312.130 Y=3233.187 Z=-0.475), Max=(X=65.956 Y=3546.632 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:3927E8674AB172E5B8ECF49044177DEA BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2069219592 Label:Tree_02_Tree_02_LOD13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3054.841 Y=3043.677 Z=-2.191), Max=(X=3221.873 Y=3213.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:396A146B4DF11ED74F495BBCC5196CD9 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:3ABB58B949B751E51B2048B0AD94FBE0 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:3ABF8778492478E28D37579CB5A83E87 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:3F61291241D70033DD35DE88C000F56A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1993450585 Label:Tree_02_Tree_02_LOD8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=846.998 Y=773.830 Z=-1.515), Max=(X=949.026 Y=874.529 Z=251.569) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:4294B08D4560A652A87C63A231FAF0AE BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1494597158 Label:BP_GunPowerUp9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1555.442 Y=-250.558 Z=-110.000), Max=(X=2064.558 Y=258.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:4938F56D4EA73437C3B3BDBD39A7CBAB BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2096389597 Label:Tree_03_Tree_03_LOD10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-711.130 Y=3374.187 Z=-0.475), Max=(X=-333.044 Y=3687.632 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:5307D86E464EB96CF012849359C31EA8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1960506581 Label:Tree_02_Tree_02_LOD6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1843.841 Y=3198.677 Z=-2.192), Max=(X=2010.873 Y=3368.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:58FB4481435B17D51CBC5DB028175A3B BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1947922578 Label:Tree_02_Tree_02_LOD3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=820.841 Y=425.677 Z=-2.192), Max=(X=987.873 Y=595.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:5D2FF1B049706A0C32D467B40FA3BAB5 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1485661156 Label:BP_GunPowerUp7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-787.558 Y=1377.442 Z=-110.000), Max=(X=-278.442 Y=1886.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:5EB0788C4F661E51B6A4B080CEA2DD47 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2048518587 Label:Tree_01_Tree_01_LOD3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3597.993 Y=2488.757 Z=-0.500), Max=(X=-3324.888 Y=2732.863 Z=555.680) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 30]
+ |   |   |   |- Guid:615A9BA74E559D3A005DFA9BF8EF7FA9 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1153201779 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3971.558 Y=-2800.558 Z=-110.000), Max=(X=-3462.442 Y=-2291.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 31]
+ |   |   |   |- Guid:66266C4440B79A872B2369B9D7160B33 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1492399157 Label:BP_GunPowerUp8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3135.558 Y=-173.558 Z=-110.000), Max=(X=-2626.442 Y=335.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 32]
+ |   |   |   |- Guid:6E5717034A1F619856C68B8D96231484 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1957232580 Label:Tree_02_Tree_02_LOD5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2026.841 Y=3130.677 Z=-2.192), Max=(X=2193.873 Y=3300.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 33]
+ |   |   |   |- Guid:709D7EC14ED317C0EE1F7EAFE7668D29 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1939696576 Label:Tree_01_Tree_01_LOD2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1883.993 Y=1294.757 Z=-0.499), Max=(X=-1610.888 Y=1538.863 Z=555.681) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 34]
+ |   |   |   |- Guid:7562B7B946A9E261D8FFCB9B330CD09A BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1930515575 Label:Tree_03_Tree_03_LOD5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=64.870 Y=-3583.813 Z=-0.475), Max=(X=442.956 Y=-3270.368 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 35]
+ |   |   |   |- Guid:7B5F32B34C729E2D2342279D1B556DD5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1899548571 Label:Tree_02_Tree_02_LOD2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=911.841 Y=615.677 Z=-2.192), Max=(X=1078.873 Y=785.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 36]
+ |   |   |   |- Guid:7EBAA7114D61078F9F6F4DAF7121D8C2 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2119224792 Label:BP_ExplosiveBarrel2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1718.790 Y=-1699.147 Z=5.770), Max=(X=1835.210 Y=-1582.853 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 37]
+ |   |   |   |- Guid:7EED416E4668BF08A5827C8E67781F16 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1476419152 Label:BP_GunPowerUp3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3080.442 Y=-3547.558 Z=-110.000), Max=(X=3589.558 Y=-3038.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 38]
+ |   |   |   |- Guid:7FBFB71648B9B74FA9F7A2AA115AABC3 BaseClass:/Game/shooter_level/Gun/BP_PlayerGun.BP_PlayerGun_C NativeClass:/Script/Engine.Actor Name:BP_PlayerGun_C_UAID_30D042E630897B2902_1253565439 Label:BP_PlayerGun SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-584.084 Y=-601.589 Z=-81.449), Max=(X=-257.916 Y=-268.411 Z=199.449) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 39]
+ |   |   |   |- Guid:81BC23ED42BA38E5DE0F9B885DA771E9 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1827299565 Label:Tree_02_Tree_02_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=727.841 Y=615.677 Z=-2.192), Max=(X=894.873 Y=785.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 40]
+ |   |   |   |- Guid:840C166647D84B96ABEF9E9B93342191 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1406928150 Label:BP_GunPowerUp SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2046.558 Y=-2742.558 Z=-110.000), Max=(X=-1537.442 Y=-2233.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 41]
+ |   |   |   |- Guid:8521364841D302ACEA63EE96707414C4 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1143880777 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1181.558 Y=-971.558 Z=-110.000), Max=(X=-672.442 Y=-462.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 42]
+ |   |   |   |- Guid:879AC79B4C7F0B5F107858B3B691D8BE BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1474401151 Label:BP_GunPowerUp2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-407.558 Y=-1724.558 Z=-110.000), Max=(X=101.558 Y=-1215.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 43]
+ |   |   |   |- Guid:8C331FBD49AD6A186FDCD6BC420E3236 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1843160568 Label:Tree_03_Tree_03_LOD1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-795.130 Y=227.187 Z=-0.975), Max=(X=-417.044 Y=540.632 Z=494.095) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 44]
+ |   |   |   |- Guid:8D610FE142472C994C8C57A151DFCC31 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1924357573 Label:Tree_03_Tree_03_LOD3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1884.870 Y=-2340.813 Z=-0.475), Max=(X=2262.956 Y=-2027.368 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 45]
+ |   |   |   |- Guid:90D6466D4AD065E803E1E49A87DD792D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1969495583 Label:Tree_03_Tree_03_LOD6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1029.391 Y=663.831 Z=-0.483), Max=(X=-764.731 Y=883.242 Z=346.067) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 46]
+ |   |   |   |- Guid:95D69E454798D870EDB6C8ACC30392A6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1911807572 Label:Tree_01_Tree_01_LOD1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2132.798 Y=-92.060 Z=-0.499), Max=(X=2480.753 Y=266.509 Z=555.681) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 47]
+ |   |   |   |- Guid:9640EABB491275B002E3FDB1F461890C BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2076400594 Label:Tree_02_Tree_02_LOD14 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3318.841 Y=2730.677 Z=-2.192), Max=(X=3485.873 Y=2900.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 48]
+ |   |   |   |- Guid:980CD51E474EB098D9C7D8BD58F3A942 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2055720589 Label:Tree_02_Tree_02_LOD10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2654.159 Y=3207.677 Z=-2.191), Max=(X=-2487.127 Y=3377.493 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 49]
+ |   |   |   |- Guid:99BA54C040EBD022E15D869840F8390D BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 50]
+ |   |   |   |- Guid:9A5BF8C64B2B39D403BCCBB5423CA0D9 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2127304794 Label:BP_ExplosiveBarrel4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3020.210 Y=2735.853 Z=5.769), Max=(X=-2903.790 Y=2852.147 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 51]
+ |   |   |   |- Guid:9FF7785F4B6C98A5578CC18543CB0485 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1147742778 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1744.558 Y=3341.442 Z=-110.000), Max=(X=-1235.442 Y=3850.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 52]
+ |   |   |   |- Guid:A36F0C9044E61060DADD2C90016ECE22 BaseClass:/Game/shooter_level/AI/AI_CarModel/AI_CarBP.AI_CarBP_C NativeClass:/Script/ChaosVehicles.WheeledVehiclePawn Name:CarBP1_C_UAID_30D042E63089A01F02_1955872396 Label:AI_CarBP1 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3137.239 Y=-3592.236 Z=38.213), Max=(X=-2530.607 Y=-2946.754 Z=382.319) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 53]
+ |   |   |   |- Guid:A8A8BB34477196B23105C3B9BEA22B53 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2061651591 Label:Tree_02_Tree_02_LOD12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1346.841 Y=-3778.323 Z=-2.191), Max=(X=1513.873 Y=-3608.507 Z=419.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 54]
+ |   |   |   |- Guid:B00FBBB34B9AD97329BF3AB8C7C9E711 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_2058226590 Label:Tree_02_Tree_02_LOD11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2926.159 Y=3207.677 Z=-170.191), Max=(X=-2759.127 Y=3377.493 Z=251.616) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 55]
+ |   |   |   |- Guid:B0DF04054823C5CA975B50970F4B4D25 BaseClass: NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_30D042E63089681F02-Default Label:RecastNavMesh-Default SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 56]
+ |   |   |   |- Guid:B2FD513041B3B85FE3DDF0A264D8186E BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- [+] [ 57]
+ |   |   |   |- Guid:B7A478434ED7A14EA0DCF8B89F805A44 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1926851574 Label:Tree_03_Tree_03_LOD4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2659.870 Y=-2150.813 Z=-0.475), Max=(X=3037.956 Y=-1837.368 Z=494.595) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 58]
+ |   |   |   |- Guid:BC3F2F884CBBD4DEB4E02F95D617F177 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 59]
+ |   |   |   |- Guid:BD32B7AB4D7736D12E5E8A9999C89214 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1978378584 Label:Tree_03_Tree_03_LOD7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-746.391 Y=586.831 Z=-0.483), Max=(X=-481.731 Y=806.242 Z=346.067) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 60]
+ |   |   |   |- Guid:C360AB33492045A9EB7E1ABE5552B714 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2038259791 Label:BP_ExplosiveBarrel SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=103.790 Y=-836.147 Z=5.770), Max=(X=220.210 Y=-719.853 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 61]
+ |   |   |   |- Guid:C395BDF04379324F70D2EC8177A8694B BaseClass:/Game/shooter_level/FallOffTrigger.FallOffTrigger_C NativeClass:/Script/Engine.Actor Name:FallOffTrigger_C_UAID_30D042E63089671F02_1276890363 Label:FallOffTrigger SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-17600.000 Y=-17600.000 Z=-232.000), Max=(X=17600.000 Y=17600.000 Z=-168.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 62]
+ |   |   |   |- Guid:CB9851894FEB54978C8DAAAD890D531C BaseClass: NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 63]
+ |   |   |   |- Guid:D8EBF3624312266E1CA6DB9824D5C633 BaseClass:/Game/shooter_level/explosiveBarrel/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C NativeClass:/Script/Engine.Actor Name:BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2122976793 Label:BP_ExplosiveBarrel3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-1770.210 Y=254.853 Z=5.770), Max=(X=-1653.790 Y=371.147 Z=195.197) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 64]
+ |   |   |   |- Guid:DAD1B53A41F3511C5AEF8FAB17673966 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089762902_1750327562 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_04 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=468.442 Y=-86.558 Z=-110.000), Max=(X=977.558 Y=422.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 65]
+ |   |   |   |- Guid:DC697C7B4268A3869E7E9EB700E98979 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1483232155 Label:BP_GunPowerUp6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1441.442 Y=1849.442 Z=-110.000), Max=(X=1950.558 Y=2358.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 66]
+ |   |   |   |- Guid:DD3E96B948586779FD9A89B031D8283E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1962563582 Label:Tree_02_Tree_02_LOD7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1836.841 Y=2997.677 Z=-2.192), Max=(X=2003.873 Y=3167.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 67]
+ |   |   |   |- Guid:E2F5AFF04F6D68765E76D0B58D81F676 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1141420776 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2059.442 Y=1491.442 Z=-110.000), Max=(X=2568.558 Y=2000.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 68]
+ |   |   |   |- Guid:E8B4EF3041A874B983974F99F59E6358 BaseClass:/Game/shooter_level/PowerUps/BP_HealthPotion.BP_HealthPotion_C NativeClass:/Script/Engine.Actor Name:StaticMeshActor_UAID_30D042E63089772902_1131699774 Label:SM_SciFi_Weapons_04_SM_SciFi_Weapons_5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3285.558 Y=1159.442 Z=-110.000), Max=(X=-2776.442 Y=1668.558 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 69]
+ |   |   |   |- Guid:E9C0ACF5428CFC84EB5108AC958B57E1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1847968569 Label:Tree_03_Tree_03_LOD2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2064.130 Y=-385.241 Z=-0.920), Max=(X=-1685.338 Y=-67.138 Z=497.517) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 70]
+ |   |   |   |- Guid:EFFAFDEA40DD973EA89E999535C0CAFE BaseClass:/Game/shooter_level/AISplineFollowing/BP_AIPath.BP_AIPath_C NativeClass:/Script/Engine.Actor Name:BP_AIPath_C_UAID_30D042E63089072602_1571436856 Label:BP_AIPath SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-2283.065 Y=-869.799 Z=-1.355), Max=(X=3116.286 Y=2705.589 Z=3.782) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 71]
+ |   |   |   |- Guid:F25EA0D949B36DBD8BB503B1DF20053F BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1788579563 Label:Flowers_02_Flowers_02_LOD0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=497.410 Y=508.778 Z=-2.356), Max=(X=544.871 Y=544.966 Z=51.976) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 72]
+ |   |   |   |- Guid:F9514B564B5FA2601FE863B8BF4D62B2 BaseClass:/Game/shooter_level/PowerUps/BP_GunPowerUp.BP_GunPowerUp_C NativeClass:/Script/Engine.Actor Name:BP_GunPowerUp_C_UAID_30D042E63089792902_1478827153 Label:BP_GunPowerUp4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=3227.442 Y=-639.558 Z=-110.000), Max=(X=3736.558 Y=-130.442 Z=250.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 73]
+ |   |   |   |- Guid:FA4C0D55499741FB21A9F98040049BAD BaseClass:/Game/shooter_level/Boss.Boss_C NativeClass:/Script/Engine.Character Name:Boss_C_UAID_30D042E63089681F02_1243387540 Label:Boss SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-3751.309 Y=-3768.235 Z=8.000), Max=(X=-3042.411 Y=-3075.340 Z=168.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [ 74]
+ |   |   |   |- Guid:FAAA6BF1408B9F514A96C5B044B3C09D BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_30D042E63089762902_1950817579 Label:Tree_02_Tree_02_LOD4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=594.841 Y=1788.677 Z=-2.192), Max=(X=761.873 Y=1958.493 Z=419.615) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-17600.000 Y=-17600.000 Z=-232.000), Max=(X=17600.000 Y=17600.000 Z=555.681)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/shooter_level/ShooterLevel
+----------------------------------------------------------------------------------------------------------------
+ShooterLevel - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of ShooterLevel Persistent Level
+ |- Always loaded Actor Count: 15 
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.CineCameraActor_UAID_30D042E63089651F02_1889843008
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/4/82/M6A57LJ869D63S4XOSCA2W
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.CineCameraActor_UAID_30D042E63089651F02_1934513009
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/8/BV/T7CEKC8ZMV4NMA00I0BAWU
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.CineCameraActor_UAID_30D042E63089D41D02_2002872445
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/HS/UT4R171PCMA883JDXFTICS
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.DirectionalLight_UAID_A85E45CFE40401D200_1470382761
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/5/0Q/14AAUIYWEA12X4CK1DXWG4
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/7/75/XGHGNFEDP11WCAY89JX3T6
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.Landscape_UAID_A85E45CFE404FBD100_1221515703
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/B/QE/0RI6VBXWCGP1OGYK2Q3DEW
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.LevelSequenceActor_UAID_30D042E63089D51D02_1124014622
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/X8/MDY4VJHY47W5026VNLVJNR
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.NavMeshBoundsVolume_UAID_30D042E63089681F02_1284941541
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/14/RCEO24CEBEODONJC7KUETP
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.PlayerStart_UAID_244BFEE9F5200E1D02_1688443585
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/DX/SNV7W9P6816T0UNVFEO0JW
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.RecastNavMesh_UAID_30D042E63089681F02-Default
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/G0/84BNE2B6HC4JZ7PETB06DN
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/78/S9P2O153LPSE2ZCG2RZSXY
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.SkyLight_UAID_A85E45CFE40401D200_1470380759
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/B/FA/IKPERN6JIY8QBKZMVTI6JA
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/5/H2/YK99BMD9XWQ3Z8N04R459E
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.VolumetricCloud_UAID_A85E45CFE40401D200_1470381760
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/7/H1/CYGMMB1IRZJX0WDJDEOONL
+ |- Actor Path: /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/A/BV/W86PB2N5XZCJSG67Q6JQYT
+
+----------------------------------------------------------------------------------------------------------------
+ShooterLevel - Runtime Hash Set
+----------------------------------------------------------------------------------------------------------------
+[+] Content of Cell ShooterLevel_MainGrid_-1_-1_0_0 (0M9N1GF1O6IC07DOFIPRJSC1N)
+ |- Actor Count: 10
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089D41D02_1488499440
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/8/VH/NOSSUGIS9F02O7KHT1ESMS
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 054EEAF14595C20C3D8433B0C03F7E40
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2044971586
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/B/DO/8E6DGTNXFTLGR4FT2X7HK4
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2C2036F046B85E6294C0C595CD30FF1A
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089772902_1153201779
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/A/HK/Y7BP84WV9K1BOR7LYTW1ID
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 615A9BA74E559D3A005DFA9BF8EF7FA9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_PlayerGun_C_UAID_30D042E630897B2902_1253565439
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/C/3F/24LWGD64R6A6MYJT2KII7I
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7FBFB71648B9B74FA9F7A2AA115AABC3
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1406928150
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/0/Q7/ZCQL0S0OXKDXTXSWDOL48A
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 840C166647D84B96ABEF9E9B93342191
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089772902_1143880777
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/5/X6/8KYZW8OONSTUJUWFJ8WGAC
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8521364841D302ACEA63EE96707414C4
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1474401151
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/5S/3LKDD9XUZ9VHAOWA7NXI0S
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 879AC79B4C7F0B5F107858B3B691D8BE
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.CarBP1_C_UAID_30D042E63089A01F02_1955872396
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/TX/IE0YMUS25ZTAT0L5WS97WG
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A36F0C9044E61060DADD2C90016ECE22
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1847968569
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/24/FEBI63GQFQ2U1KVZ3GCTRF
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: E9C0ACF5428CFC84EB5108AC958B57E1
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.Boss_C_UAID_30D042E63089681F02_1243387540
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/AF/78HA1JGKUC6C8868MZMBZS
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: FA4C0D55499741FB21A9F98040049BAD
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell ShooterLevel_MainGrid_-1_0_0_0 (2KSI286RDPR9R8KX3M17WXU1I)
+ |- Actor Count: 16
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2052910588
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/0D/38BONZSTZQAJ6S679YFTYP
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 1CB463AE41853B1B1980B8842233FF9B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2092910596
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/QU/7OATSYZILBD78W1R7J6JAG
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 355824A84F5332363FA0F7B139EEF3EF
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2096389597
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/VY/HCXOW50J6L32IYKT6ES928
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 4938F56D4EA73437C3B3BDBD39A7CBAB
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1485661156
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/8/YE/M77CE28QIEKPC74108ND75
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5D2FF1B049706A0C32D467B40FA3BAB5
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2048518587
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/LG/3VQ4QE2VTSDGZDXA36C1AM
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5EB0788C4F661E51B6A4B080CEA2DD47
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1492399157
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/8/FC/DBVE66QIZD8ZGYNY2CL9OY
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 66266C4440B79A872B2369B9D7160B33
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1939696576
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/6L/75SM7VFEUDP3ZJER2T30BO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 709D7EC14ED317C0EE1F7EAFE7668D29
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1843160568
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/1/OB/ZUKSO6CHF7XCSN0PWADC5C
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8C331FBD49AD6A186FDCD6BC420E3236
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1969495583
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/2/89/CYAX6FAU70RL6V9ZXEFJOL
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 90D6466D4AD065E803E1E49A87DD792D
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2055720589
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/4/WG/J916E4DBFTUQ3R0W3P1ZJE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 980CD51E474EB098D9C7D8BD58F3A942
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2127304794
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/1/K6/0WX6CCJ4UT60805OH3J0WV
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9A5BF8C64B2B39D403BCCBB5423CA0D9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089772902_1147742778
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/5/22/XII7JRGOVS610S25U8I2ZQ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9FF7785F4B6C98A5578CC18543CB0485
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2058226590
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/8/78/TT29OXG18XU26DG3FVYKTM
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B00FBBB34B9AD97329BF3AB8C7C9E711
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1978378584
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/2/LU/YLCUCY5BMHNNYVLUQ6AB5U
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: BD32B7AB4D7736D12E5E8A9999C89214
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2122976793
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/54/WFEWWPX7U845JYSKC22EWM
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: D8EBF3624312266E1CA6DB9824D5C633
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089772902_1131699774
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/M3/A1KTRJBVW3GA0I41R89JW0
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: E8B4EF3041A874B983974F99F59E6358
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell ShooterLevel_MainGrid_0_0_-1_1 (5QKAJJ1DNUKKLIQ39BGIHUNQD)
+ |- Actor Count: 1
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.FallOffTrigger_C_UAID_30D042E63089671F02_1276890363
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/4D/5YNPR5VO20RHMW4P5KZKVD
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C395BDF04379324F70D2EC8177A8694B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell ShooterLevel_MainGrid_0_0_0_0 (5VT5JFD54ZM6JD6DRW7LNQ22S)
+ |- Actor Count: 22
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2130942795
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/7/6X/Q94K3YWFS8XW9KHL3VA17J
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 25CFBA144B1BE9A5450BAC8FC5D11FED
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1833803567
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/BC/27ILP4ZRY5HAI1Q0A4R45C
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 275EF9CF4E89A94C9F7A748B0CD07E10
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2079303595
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/2/IM/59KX0XARDH5Z8PZJ3SPMIH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2FD337C144677805B2A24C850485CBBE
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1480603154
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/8/69/DOCOEYIIC9R047GMUSDG6I
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 345F21714B67725FC3E921BE91AAB439
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1830404566
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/MB/17J26P7VQ8G2TAIR5FGFCW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 3487B3A341282D6376CBE3ADF9146577
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2069219592
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/L0/8KS1NJPXU4IMOMTG5YOVOG
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 3927E8674AB172E5B8ECF49044177DEA
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1993450585
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/OH/F8Y6UXU5TPTKVOG19JML8X
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 3F61291241D70033DD35DE88C000F56A
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1494597158
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/1/IS/2TAG5HOFTXC3X2JWEATP5R
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 4294B08D4560A652A87C63A231FAF0AE
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1960506581
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/C/5I/YW70I080PBXNKM23JTZBHR
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 5307D86E464EB96CF012849359C31EA8
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1947922578
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/MN/TZGIS6VMNWTOWIW5AJXSRB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 58FB4481435B17D51CBC5DB028175A3B
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1957232580
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/6/M4/V9NE47C0AEPGK0XOH53LBW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 6E5717034A1F619856C68B8D96231484
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1899548571
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/H6/K1U6A4YPAZPT24QXUWLE7S
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7B5F32B34C729E2D2342279D1B556DD5
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1827299565
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/1/X9/KLIM6IWYFH4DUKE2V31PYH
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 81BC23ED42BA38E5DE0F9B885DA771E9
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1911807572
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/E/F7/H0YBWDXK75VEZSQEGQIPAX
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 95D69E454798D870EDB6C8ACC30392A6
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2076400594
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/2/ZF/U2VGIHQX081JQ5CZRMBMQT
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 9640EABB491275B002E3FDB1F461890C
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1750327562
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/4/O0/51KUI5YBRGUHVSTNOGCUVW
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: DAD1B53A41F3511C5AEF8FAB17673966
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1483232155
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/1/MA/TNNA94MQRCCET1XUT7VKCF
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: DC697C7B4268A3869E7E9EB700E98979
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1962563582
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/C/4N/NBL76H7KZ17W6Z1YOT7PYY
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: DD3E96B948586779FD9A89B031D8283E
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089772902_1141420776
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/RR/ZBXUNKPDNXPE9EB51ITZ2U
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: E2F5AFF04F6D68765E76D0B58D81F676
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_AIPath_C_UAID_30D042E63089072602_1571436856
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/3/RM/CK85W6RZN7BARP1JS2P8VQ
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: EFFAFDEA40DD973EA89E999535C0CAFE
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1788579563
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/B/K3/78EHV1W9M3TCD9D2WLWEMS
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: F25EA0D949B36DBD8BB503B1DF20053F
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1950817579
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/C/KN/YW59816HCAYFI82FRGPAF9
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: FAAA6BF1408B9F514A96C5B044B3C09D
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell ShooterLevel_MainGrid_0_-1_0_0 (6SQVTSTNSQ6TL7NXS9280TVOD)
+ |- Actor Count: 10
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1819075564
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/A/K4/KPXLDD73NGOI8QHA7R2SI1
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 209C61654DDE6EA6037415B436054D34
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089772902_1138551775
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/A/LX/PWIPQ05FWG2P68RPRJHVDB
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 2FD8064447081718DEC792ACDD7FC5E7
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1930515575
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/A/AV/FYWYYKU0SSRTIJ5LNOEPAC
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7562B7B946A9E261D8FFCB9B330CD09A
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2119224792
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/C/EF/VMR66QB7V2W911QZ3EQ0CO
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7EBAA7114D61078F9F6F4DAF7121D8C2
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1476419152
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/94/4VFLEHQX6BZSFVVKLFU3MP
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 7EED416E4668BF08A5827C8E67781F16
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1924357573
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/B/EO/WRKXQB4GETHDQFL3ZC5U3Y
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 8D610FE142472C994C8C57A151DFCC31
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_2061651591
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/2/LJ/OWDYW2CF3N79729D4HRBAS
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: A8A8BB34477196B23105C3B9BEA22B53
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089762902_1926851574
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/SC/INMTUUBGMC6ALFKEHJJQ3G
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: B7A478434ED7A14EA0DCF8B89F805A44
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_ExplosiveBarrel_C_UAID_30D042E630897D2902_2038259791
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/RS/1KSCB90S04VFZ6CMEYOOQE
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: C360AB33492045A9EB7E1ABE5552B714
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.BP_GunPowerUp_C_UAID_30D042E63089792902_1478827153
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/9/JP/DUQ4M7XGIUMRX5FY17113O
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: F9514B564B5FA2601FE863B8BF4D62B2
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+[+] Content of Cell ShooterLevel_MainGrid_0_0_-1_0 (EIZ19A1K1DURNEV45FSFONXN2)
+ |- Actor Count: 1
+ |- [+] /Game/shooter_level/ShooterLevel.ShooterLevel:PersistentLevel.StaticMeshActor_UAID_30D042E63089D11D02_2138673903
+ |   |-         Package: /Game/__ExternalActors__/shooter_level/ShooterLevel/D/RL/GUWOHWTADPPPGI337S6ZDL
+ |   |-     Editor Only: 0
+ |   |-   Instance Guid: 0D5B23764D30C74FC59FE2A122510880
+ |   |- [+] Container:
+ |   |   |-        ID: 00000000000000000000000000000000
+ |   |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+
